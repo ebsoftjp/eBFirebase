@@ -29,3 +29,15 @@ bitsadmin /transfer dl1 https://dl.google.com/games/registry/unity/com.google.fi
 if not exist %CD%\com.google.firebase.messaging-12.3.0.tgz (
 bitsadmin /transfer dl1 https://dl.google.com/games/registry/unity/com.google.firebase.messaging/com.google.firebase.messaging-12.3.0.tgz %CD%\com.google.firebase.messaging-12.3.0.tgz
 )
+
+if not exist %CD%\com.google.firebase.app-check-12.3.0.tgz (
+bitsadmin /transfer dl1 https://dl.google.com/games/registry/unity/com.google.firebase.app-check/com.google.firebase.app-check-12.3.0.tgz %CD%\com.google.firebase.app-check-12.3.0.tgz
+)
+
+if not exist %CD%\com.google.firebase.remote-config-12.3.0.tgz (
+bitsadmin /transfer dl1 https://dl.google.com/games/registry/unity/com.google.firebase.remote-config/com.google.firebase.remote-config-12.3.0.tgz %CD%\com.google.firebase.remote-config-12.3.0.tgz
+)
+
+if not exist %CD%\com.google.firebase.storage-12.3.0.tgz (
+bitsadmin /transfer dl1 https://dl.google.com/games/registry/unity/com.google.firebase.storage/com.google.firebase.storage-12.3.0.tgz %CD%\com.google.firebase.storage-12.3.0.tgz
+)

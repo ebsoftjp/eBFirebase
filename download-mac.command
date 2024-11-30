@@ -14,6 +14,9 @@ array+=(https://dl.google.com/games/registry/unity/com.google.firebase.crashlyti
 array+=(https://dl.google.com/games/registry/unity/com.google.firebase.firestore/com.google.firebase.firestore-12.3.0.tgz)
 array+=(https://dl.google.com/games/registry/unity/com.google.firebase.functions/com.google.firebase.functions-12.3.0.tgz)
 array+=(https://dl.google.com/games/registry/unity/com.google.firebase.messaging/com.google.firebase.messaging-12.3.0.tgz)
+array+=(https://dl.google.com/games/registry/unity/com.google.firebase.app-check/com.google.firebase.app-check-12.3.0.tgz)
+array+=(https://dl.google.com/games/registry/unity/com.google.firebase.remote-config/com.google.firebase.remote-config-12.3.0.tgz)
+array+=(https://dl.google.com/games/registry/unity/com.google.firebase.storage/com.google.firebase.storage-12.3.0.tgz)
 
 for var in ${array[@]}; do
   filename="$(basename ${var})"
